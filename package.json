@@ -1,0 +1,52 @@
+{
+  "name": "wcagit",
+  "version": "0.1.0",
+  "description": "Comprehensive WCAG Evaluation Suite for Opencode",
+  "type": "module",
+  "main": "dist/engine.js",
+  "module": "dist/engine.js",
+  "bin": {
+    "wcagit": "dist/cli.js"
+  },
+  "access": "public",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "axe",
+    "axe-core",
+    "mcp",
+    "wcag",
+    "claude",
+    "ai"
+  ],
+  "author": "mahdyarief",
+  "license": "MIT",
+  "dependencies": {
+    "@axe-core/puppeteer": "^4.4.0",
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axe-core": "^4.6.0",
+    "puppeteer": "13.5.0",
+    "puppeteer-core": "13.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "shx": "^0.3.4",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronantakizawa/wcagit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronantakizawa/wcagit/issues"
+  },
+  "homepage": "https://github.com/ronantakizawa/wcagit#readme"
+}
