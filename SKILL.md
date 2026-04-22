@@ -16,6 +16,6 @@ Use specialized sub-skills for specific tasks:
 
 ## Reference Context
 For detailed rules, criteria, and techniques, refer to:
-- `reference/wcag-guidelines.md` (WCAG Success Criteria)
-- `reference/web-interface-guidelines.md` (Vercel-style UI/UX Guidelines)
+- `docs/reference/wcag-guidelines.md` (WCAG Success Criteria)
+- `docs/reference/web-interface-guidelines.md` (Vercel-style UI/UX Guidelines)
 - `docs/accessibility/axe-rules.json` (Axe-core automated rule mappings)

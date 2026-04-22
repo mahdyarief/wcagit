@@ -13,7 +13,7 @@ Use this skill to suggest and apply fixes for accessibility violations.
 
 1. **Map Violations:**
    - For each violation found in `wcagit-audit` or `wcagit-review`, map it to a W3C Success Criterion.
-   - Use `reference/wcag-guidelines.md` as the primary reference for mapping.
+   - Use `docs/reference/wcag-guidelines.md` as the primary reference for mapping.
 
 2. **Develop Fixes:**
    - Propose code changes that resolve the violation while maintaining functionality.

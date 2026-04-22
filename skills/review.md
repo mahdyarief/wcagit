@@ -23,8 +23,8 @@ Use this skill to review source code for accessibility issues without running a 
 2. **Structural Review:**
    - Use `Read` to examine the heading hierarchy (`h1` through `h6`).
    - Check if form labels are correctly associated with inputs (`htmlFor`).
-   - Refer to `reference/wcag-guidelines.md` for WCAG criteria mappings (including AAA criteria like Target Size and Reading Level).
-   - Refer to `reference/web-interface-guidelines.md` for UI/UX best practices and **AAA Excellence points** (Typography, Cognitive Load, and Undo mechanisms).
+   - Refer to `docs/reference/wcag-guidelines.md` for WCAG criteria mappings (including AAA criteria like Target Size and Reading Level).
+   - Refer to `docs/reference/web-interface-guidelines.md` for UI/UX best practices and **AAA Excellence points** (Typography, Cognitive Load, and Undo mechanisms).
 
 3. **Provide Feedback:**
    - Report issues in `file:line` format (e.g., `src/Button.tsx:42 - icon button missing aria-label`).
