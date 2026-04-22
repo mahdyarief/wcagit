@@ -12,6 +12,12 @@
 ## Installation
 
 ```bash
+# Clone into your O‍pencode skills directory
+cd ~/.config/o‍pencode/skills/
+git clone https://github.com/mahdyarief/wcagit.git
+cd wcagit
+
+# Install dependencies and build
 npm install
 npm run build
 ```
